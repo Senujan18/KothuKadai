@@ -112,8 +112,10 @@
 }
 
 .food_box img {
-    object-fit: cover;
+    object-fit: contain;
     height: 240px;
+    width: 100%;
+
 }
 
 .food_grid {
@@ -156,4 +158,25 @@
     .menu_order {
         display: none;
     }
+
+    .food_box img {
+        object-fit: contain;
+        height: auto;
+        max-height: 150px;
+        width: 100%;
+    
+    }
+
+    .food_box {
+        width: 48%;
+    }
+
+    .food_box p {
+        font-size: 13px;
+    }
+
+    .food_box h3 {
+        font-size: 15px;
+    }
+
 }

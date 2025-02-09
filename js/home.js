@@ -1,17 +1,21 @@
 const nav_icon = document.getElementById('nav_icon');
 const mobile_nav = document.getElementById('mobile_nav');
 const close_icon = document.getElementById('nav_close');
+const categories = document.getElementById('categories');
 
 nav_icon.addEventListener("click", () => {
     if (mobile_nav.style.display === "none" || mobile_nav.style.display === "") {
         mobile_nav.style.display = "flex";
+        categories.style.display = "none";
     } else{
         mobile_nav.style.display = "none";
+        categories.style.display = "flex";
     }
 })
 
 nav_close.addEventListener("click", () => {
     mobile_nav.style.display = "none";
+    categories.style.display = "flex";
 })
 
 
