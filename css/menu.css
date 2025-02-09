@@ -1,0 +1,159 @@
+
+
+#categories {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around; /* Use only one justify-content */
+    padding: 20px;
+    position: sticky;
+    top: 0; /* Required for sticky positioning */
+    z-index: 1000;
+    background-color: white; /* Add a background color to avoid content overlapping */
+    border-bottom: 1px solid #ccc; /* Optional: Add a border for better visibility */
+    background-color: black;
+}
+
+#categories a {
+    text-decoration: none;
+    color: white;
+}
+
+#categories a:hover {
+    color: #d2691e;
+}
+
+#categories h3 a.active {
+    color:#d2691e;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: black;
+
+}   
+
+#hero_section {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+
+}
+
+#text_container {
+    max-width: 60%;
+    padding-left: 60px;
+}
+
+#text_container h2 {
+    font-size: 50px;
+}
+
+#text_container p {
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d2691e;
+}
+
+#hero_image img {
+    width: auto; /* Ensure the image fills its container */
+    height: 400px; /* Maintain aspect ratio */
+    max-width: 600px;
+    object-fit: cover;
+}
+
+#nav_btn_menu {
+    background-color: #d2691e;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 75px;
+    text-decoration: none;
+    font-family: 'Yeseva One', serif;
+    color: white;
+    padding: 15px;
+}
+
+#nav_btn:hover {
+    color: red;
+}
+
+@media (max-width:768px) {
+    #hero_section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+
+    #text_container {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #hero_image img {
+        height: 300px;
+    }
+}
+
+#popular_text {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+
+.food_box {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.food_box img {
+    object-fit: cover;
+    height: 240px;
+}
+
+.food_grid {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.price {
+    margin: 0;
+}
+
+.name {
+    margin-bottom: 5px;
+}
+
+#kothu_desc {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+
+.spice {
+    color: red;
+}
+
+@media (max-width:768px) {
+    #categories {
+        flex-wrap: wrap;
+    }
+
+    #text_container {
+        margin-left: 20px;
+    }
+
+    .menu_order {
+        display: none;
+    }
+}
