@@ -180,3 +180,45 @@
     }
 
 }
+
+@media (max-width:550px) {
+    #categories {
+        flex-wrap: wrap;
+    }
+
+    #categories h3 {
+        font-size: 13px;
+    }
+
+    #text_container {
+        margin-left: 20px;
+    }
+
+    .menu_order {
+        display: none;
+    }
+
+    .food_box img {
+        object-fit: contain;
+        height: auto;
+        max-height: 150px;
+        width: 100%;
+    
+    }
+
+    .food_box {
+        width: 30%;
+    }
+
+    .food_box p {
+        font-size: 10px;
+    }
+
+    .food_box h3 {
+        font-size: 13px;
+    }
+
+    #cate_desc p {
+        font-size: 13px;
+    }
+}
