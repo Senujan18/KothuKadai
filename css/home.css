@@ -425,6 +425,7 @@ form button:hover {
 
     #maps {
         padding: 20px;
+        padding-right: 0px;
     }
 
     #contact form {
