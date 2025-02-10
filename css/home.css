@@ -393,9 +393,7 @@ form button:hover {
     width: 100%;
 }
 
-#maps {
-    padding-right: 20px;
-}
+
 
 
 @media (max-width: 800px) {
@@ -423,10 +421,7 @@ form button:hover {
         padding-left: 20px
     }
 
-    #maps {
-        padding: 20px;
-        padding-right: 0px;
-    }
+
 
     #contact form {
         margin-left: auto;
