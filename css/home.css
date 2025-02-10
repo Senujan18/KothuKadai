@@ -130,7 +130,7 @@ body {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .hamburger {
         display: flex;
     }
@@ -224,7 +224,7 @@ body {
     color: #d32f2f;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     #heading {
         font-size: 55px;
     }
@@ -257,6 +257,11 @@ body {
     height: 100%;
     object-fit: cover;
     cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.img_container img:hover {
+    transform: scale(1.05);
 }
 
 .img_container p{
@@ -272,7 +277,7 @@ body {
     text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     #options_section {
         flex-direction: column;
     }
@@ -352,6 +357,16 @@ form button {
     border-radius: 30px;
     padding: 15px;
     border: 0;
+    font-family: "bungee";
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+
+form button:hover {
+    background-color: #d32f2f;
+    transform: scale(1.1);
 }
 
 #opening_container {
@@ -373,7 +388,17 @@ form button {
     height: 20px;
 }
 
-@media (max-width: 768px) {
+
+#map_frame {
+    width: 100%;
+}
+
+#maps {
+    padding-right: 20px;
+}
+
+
+@media (max-width: 800px) {
     #contact_container {
         flex-direction: column;
         align-items: center;

@@ -2,6 +2,14 @@ const nav_icon = document.getElementById('nav_icon');
 const mobile_nav = document.getElementById('mobile_nav');
 const close_icon = document.getElementById('nav_close');
 const categories = document.getElementById('categories');
+const contact_btn = document.getElementById('contact_btn');
+
+contact_btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    document.querySelector('#contact_container').scrollIntoView({
+        behavior:"smooth"
+    });
+})
 
 nav_icon.addEventListener("click", () => {
     if (mobile_nav.style.display === "none" || mobile_nav.style.display === "") {
