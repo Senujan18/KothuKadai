@@ -604,11 +604,11 @@ form button:hover {
 
 @media (max-width:500px) {
     #idiyappam_text h2 {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     #idiyappam_text p {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .image_slider {
