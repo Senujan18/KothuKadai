@@ -601,3 +601,22 @@ form button:hover {
     
       }
 }
+
+@media (max-width:500px) {
+    #idiyappam_text h2 {
+        font-size: 15px;
+    }
+
+    #idiyappam_text p {
+        font-size: 12px;
+    }
+
+    .image_slider {
+        height: 350px;
+    }
+    #idiyappam_img {
+        width: 60%;
+        height: 350px;
+    
+      }
+}
