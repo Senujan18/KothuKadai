@@ -1,0 +1,158 @@
+#heading_container {
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+#heading_1 {
+    margin-bottom: 0;
+}
+
+#est {
+    margin-top: 0;
+    font-size: 20px;
+    color: #d2691e;
+    margin-bottom: 50px;
+}
+
+#shop #poosai {
+    height: auto;
+}
+
+#container_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.text_container_1 {
+    width: 30%;
+    background-color: #d2691e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_container_1 h2 {
+    font-size: 34px;
+    text-align: center;
+}
+
+.text_container_1 p {
+    font-size: 14px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+#right_text {
+    background-color: #fffbe8;
+}
+
+#container_1_img {
+    width: 70%;
+}
+
+.image_slider_about {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.image_slider_about img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.image_slider_about img:nth-child(1) {
+    animation: slide1 8s infinite;
+}
+
+.image_slider_about img:nth-child(2) {
+    animation: slide2 8s infinite;
+}
+
+@keyframes slide1 {
+    0%, 45% { opacity: 1; }  /* Image 1 stays visible */
+    50%, 95% { opacity: 0; } /* Smooth fade out */
+    100% { opacity: 1; }     /* Fades back in at the end */
+}
+
+@keyframes slide2 {
+    0%, 45% { opacity: 0; }  /* Image 2 starts hidden */
+    50%, 95% { opacity: 1; } /* Smooth fade in */
+    100% { opacity: 0; }     /* Fades out at the end */
+}
+
+#kothu-kadai {
+    object-position: 0px 35%;
+}
+
+.white_text {
+    color: white;
+}
+
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes pulseText {
+    0%, 100% {
+        transform: scale(1);
+        color: #ff4500; /* Vibrant color */
+    }
+    50% {
+        transform: scale(1.1);
+        color: #ff6347;
+    }
+}
+
+.animated-text {
+    display: inline-block;
+    animation: fadeInScale 1s ease-out;
+}
+
+
+.bold_text {
+    color: #d2691e;
+    font-weight: bold;
+    animation: pulseText 1s infinite ease-in-out;
+}
+
+#about_us {
+    margin-top: 0;
+    padding: 0;
+}
+
+#tagline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+}
+
+#rule {
+    margin-bottom: 0;
+}
+
+@media (max-width:768px) {
+    
+}
