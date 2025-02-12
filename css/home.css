@@ -168,7 +168,7 @@ body {
 
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/hero.jpg');
-    height: 100vh;
+    height: 70vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -541,6 +541,10 @@ form button:hover {
     object-fit: cover;
     opacity: 0;
     transition: opacity 1s ease-in-out;
+}
+
+.slide {
+    object-position: 0px 70%;
 }
 
 .image_slider img:nth-child(1) {
