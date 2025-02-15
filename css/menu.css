@@ -109,7 +109,6 @@
 .food_box {
     display: flex;
     flex-direction: column;
-    width: 25%;
     background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -117,6 +116,7 @@
     transition: transform 0.2s ease-in-out box-shadow 0.2s ease-in-out;
     padding-bottom: 10px;
     background-color: #F4C9A1;
+    height: 100%;
 }
 
 .food_box:hover {
@@ -140,11 +140,14 @@
 
 
 .food_grid {
-    padding: 20px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 50px;
 }
 
 .price {
@@ -183,21 +186,23 @@
     .food_box img {
         object-fit: cover;
         height: auto;
-        max-height: 250px;
         width: 100%;
     
     }
 
-    .food_box {
-        width: 48%;
-    }
 
     .food_box p {
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .food_box h3 {
-        font-size: 15px;
+        font-size: 13px;
+    }
+
+    .food_grid {
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 }
@@ -220,15 +225,11 @@
     }
 
     .food_box img {
-        object-fit: contain;
+        object-fit: cover;
         height: auto;
-        max-height: 150px;
+        max-height: 100px;
         width: 100%;
     
-    }
-
-    .food_box {
-        width: 30%;
     }
 
     .food_box p {

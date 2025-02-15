@@ -414,7 +414,7 @@ form button:hover {
     }
 
     #map_frame {
-        width: 100vw;
+        width: 100%;
     }
 
     #maps h2 {
