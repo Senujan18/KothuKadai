@@ -389,7 +389,14 @@ form button:hover {
 }
 
 
-#map_frame {
+#maps {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+#maps iframe {
     width: 100%;
 }
 
