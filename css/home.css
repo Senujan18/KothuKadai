@@ -398,6 +398,19 @@ form button:hover {
 
 #maps iframe {
     width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+
+#location_img {
+    width: 25px;
+    height: 25px;
+}
+
+#details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 
