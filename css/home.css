@@ -601,8 +601,9 @@ form button:hover {
   }
 
   #idiyappam_text {
-    background-color: #FFD700;
+    background-color: #E0C385;
     width: 40%;
+    color: black;
   }
 
   #idiyappam_text, #idiyappam_image {
