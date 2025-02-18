@@ -286,6 +286,10 @@ body {
         width: 100%;
     }
 
+    .img_container img {
+        height: 350px;
+    }
+
     .img_container p {
         font-size: 30px;
     }
