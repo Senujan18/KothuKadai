@@ -3,12 +3,17 @@ const mobile_nav = document.getElementById('mobile_nav');
 const close_icon = document.getElementById('nav_close');
 const categories = document.getElementById('categories');
 const contact_btn = document.getElementById('contact_btn');
+const order_btn = document.getElementById('order_button');
 
 contact_btn.addEventListener("click", (e) => {
     e.preventDefault();
     document.querySelector('#contact_container').scrollIntoView({
         behavior:"smooth"
     });
+})
+
+order_btn.addEventListener('click', (e) => {
+    window.location.href = "https://www.ordermeal.co.nz/kothu-kadai/";
 })
 
 nav_icon.addEventListener("click", () => {
