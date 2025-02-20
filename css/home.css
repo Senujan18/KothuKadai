@@ -703,6 +703,16 @@ form button:hover {
     }
 }
 
+@media (max-width:500px) {
+    #footer_nav {
+        font-size: 10px;
+    }
+
+    #copy {
+        font-size: 8px;
+    }
+}
+
 #footer_box {
     background-color: black;
     display: flex;
