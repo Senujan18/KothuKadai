@@ -653,3 +653,74 @@ form button:hover {
     
       }
 }
+
+#logo_box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+#kothu_kadai {
+    width: auto;
+    height: 200px;
+}
+
+#kps {
+    width: auto;
+    height: 200px;
+}
+
+#logos {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#logo_border {
+    color: #d2691e;
+    border: none; /* Remove default border */
+    border-top: 2px solid #d2691e; /* Add your desired border */
+    margin: 0; /* Remove any margin around the hr */
+    width: 100%; /* Make the border full-width */
+
+}
+@media (max-width:800px) {
+    #kothu_kadai {
+        height: 100px;
+    }
+
+    #kps {
+        height: 100px
+    }
+
+    #footer_nav {
+        font-size: 13px;
+    }
+
+    #copy {
+        font-size: 10px;
+    }
+}
+
+#footer_box {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+#copy {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+#footer_container {
+    background-color: black;
+}
