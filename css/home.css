@@ -701,6 +701,10 @@ form button:hover {
     #copy {
         font-size: 10px;
     }
+
+    #contact_container {
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width:500px) {
